@@ -1,0 +1,24 @@
+{
+  "name": "offlinereboot",
+  "version": "0.0.0",
+  "description": "reboot linux if offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dottgonzo/offlinereboot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dottgonzo/offlinereboot/issues"
+  },
+  "dependencies": {
+    "hwrestart": "0.0.12",
+    "promise-test-connection": "0.0.2",
+    "timerdaemon": "0.0.2",
+    "verbo": "0.0.9"
+  }
+}
