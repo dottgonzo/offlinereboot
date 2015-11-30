@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "hwrestart": "0.0.12",
+    "json-add": "0.0.1",
     "promise-test-connection": "0.0.2",
     "timerdaemon": "0.0.2",
     "verbo": "0.0.9"

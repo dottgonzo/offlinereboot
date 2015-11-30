@@ -1,6 +1,7 @@
 var testinternet=require('promise-test-connection'),
 timerdaemon=require('timerdaemon'),
 verb=require('verbo'),
+merge=require('json-add'),
 hwrestart=require('hwrestart');
 
 function offreboot(options){
