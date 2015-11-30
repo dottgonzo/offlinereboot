@@ -1,6 +1,6 @@
 {
   "name": "offlinereboot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "reboot linux if offline",
   "main": "index.js",
   "scripts": {
