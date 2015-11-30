@@ -4,7 +4,9 @@
   "description": "reboot linux if offline",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hw": "git add -A && git commit -m 'oki'&&npm version patch -m patch&&git add -A && git commit --amend -C HEAD&& git push && npm publish",
+  "patch": "npm version patch -m patch&&git add -A && git commit --amend -C HEAD&& git push && npm publish"
   },
   "repository": {
     "type": "git",
